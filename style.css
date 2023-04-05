@@ -14,8 +14,7 @@ body {
 .divider {
     border-bottom: 3px solid #a5a9a9;
     width: 350px;
-    margin-left: 570px;
-    margin-bottom: 400px;
+    margin-top: -45px;
 }
 
 .bottom-buttons {
@@ -25,10 +24,37 @@ body {
     gap: 12px;
 }
 button {
-    margin-bottom: 500px;
+    margin-top: 560px;
 }
 
 .home-button {
-    width: 12px;
-    height: 10px; 
+    width: 65px;
+    height: 25px;
+    border-radius: 12px;
+    border: 1.5px solid white;
+    background-color: rgb(23, 23, 23); 
+    box-shadow: -2px -2px 9px -4px  white;
+}
+.left-button {
+    height: 20px;
+    width: 17px;
+    border: 1.5px solid white;
+    background-color: rgb(37, 32, 32); 
+    box-shadow: -2px -2px 9px -4px  white;
+    border-radius: 5px;
+}
+.right-button {
+    height: 20px;
+    width: 17px;
+    border: 1.5px solid white;
+    background-color: rgb(37, 32, 32); 
+    box-shadow: -2px -2px 9px -4px  white;
+    border-radius: 5px;
+}
+
+h1 {
+    color: red;
+    margin-top: -450px;
+    font-size: 64px;
+    margin-left: 12px;
 }
