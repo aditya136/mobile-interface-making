@@ -145,3 +145,29 @@ input {
 .gallery-name {
     margin-left: 10px;
 }
+
+.top-icons {
+    display: flex;
+	flex-direction: row;
+    gap: 10px;   
+    margin-top: -465px;
+    margin-left: 180px;
+}
+
+.battery, .data, .wifi {
+    width: 20px;
+    height: 20px;
+}
+
+.top-time {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: auto;
+    font-size: 15px;
+}
+.data {
+    margin-top: -3px;
+}
+.wifi {
+    margin-top: -3px;
+}
