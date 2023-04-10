@@ -171,3 +171,30 @@ input {
 .wifi {
     margin-top: -3px;
 }
+
+.top-functions {
+    display: flex;
+	flex-direction: row;
+    margin-top: -435px;
+    margin-left: 130px;
+}
+.right-box {
+    width: 15px;
+    height: 15px;
+    background-color: aliceblue;
+    border-radius: 10pc;
+    border: solid 3px rgb(79, 79, 79);
+}
+.mid-box {
+    width: 90px;
+    height: 20px;
+    background-color: rgba(148, 148, 148, 0.648);
+    border-radius: 10px;
+    border: solid 1.8px rgba(224, 220, 220, 0.6);
+}
+.left-box {
+    width: 10px;
+    height: 10px;
+    border-radius: 10pc;
+    background-color: white;
+}
